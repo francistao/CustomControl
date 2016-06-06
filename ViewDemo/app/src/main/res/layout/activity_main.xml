@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tc="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <com.geniusvjr.viewdemo.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        tc:image="@mipmap/ic_launcher"
+        tc:imageScaleType="center"
+        tc:titleText="hello andorid ! "
+        tc:titleTextColor="#ff0000"
+        tc:titleTextSize="30sp" />
+
+    <com.geniusvjr.viewdemo.CustomImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        tc:image="@mipmap/ic_launcher"
+        tc:imageScaleType="center"
+        tc:titleText="helloworldwelcome"
+        tc:titleTextColor="#00ff00"
+        tc:titleTextSize="20sp" />
+
+    <com.geniusvjr.viewdemo.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        tc:image="@mipmap/ic_launcher"
+        tc:imageScaleType="center"
+        tc:titleText="妹子~"
+        tc:titleTextColor="#ff0000"
+        tc:titleTextSize="12sp" />
+
+</LinearLayout>
