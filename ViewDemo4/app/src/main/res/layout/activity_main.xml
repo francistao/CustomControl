@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:tc="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#55ffffff"
+              android:orientation="vertical"
+              tools:context=".MainActivity" >
+
+    <com.geniusvjr.viewdemo4.CustomVolumControlBar
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        tc:bg="@drawable/customize"
+        tc:circleWidth="12dp"
+        tc:dotCount="20"
+        tc:firstColor="#252420"
+        tc:secondColor="#FDFDFD"
+        tc:splitSize="25" />
+
+    <com.geniusvjr.viewdemo4.CustomVolumControlBar
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        tc:bg="@drawable/icon"
+        tc:circleWidth="10dp"
+        tc:dotCount="10"
+        tc:firstColor="#00ff00"
+        tc:secondColor="#ff0000"
+        tc:splitSize="15" />
+
+    <com.geniusvjr.viewdemo4.CustomVolumControlBar
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        tc:bg="@drawable/icon_qq_small"
+        tc:circleWidth="10dp"
+        tc:dotCount="8"
+        tc:firstColor="#ADC6E5"
+        tc:secondColor="#0362DB"
+        tc:splitSize="25" />
+
+</LinearLayout>
